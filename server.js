@@ -51,9 +51,9 @@ onHttpStart = () => {
        
     
        .catch(function (err) {
-         console.log('Failed to start!' + err);
+         console.log('Failed to' + err);
        });
 
-       app.listen(HTTP_PORT, onHttpStart());
+      // app.listen(HTTP_PORT, onHttpStart());
 
 
